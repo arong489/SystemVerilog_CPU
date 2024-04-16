@@ -1,0 +1,1 @@
+python Diff/Diff.py Diff/stdand.txt Diff/check.txt

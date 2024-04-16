@@ -1,0 +1,1061 @@
+                            _ooOoo_                     
+                           o8888888o                    
+                           88  .  88                    
+                           (| -_- |)                    
+                            O\ = /O                    
+                        ____/`---'\____                
+                      .   ' \| |// `.                  
+                       / \||| : |||// \               
+                     / _||||| -:- |||||- \             
+                       | | \\\ - /// | |             
+                     | \_| ''\---/'' | |              
+                      \ .-\__ `-` ___/-. /            
+                   ___`. .' /--.--\ `. . __            
+                . '< `.___\_<|>_/___.' >'.         
+               | | : `- \`.;`\ _ /`;.`/ - ` : | |     
+                 \ \ `-. \_ __\ /__ _/ .-` / /      
+         ======`-.____`-.___\_____/___.-`____.-'====== 
+                            `=---='  
+                                                        
+         .............................................  
+                  佛祖镇楼             BUG辟邪          
+          Zen of python:                                
+                  Beautiful is better than ugly.；      
+                  Explicit is better than implicit.     
+                  Simple is better than complex.        
+                  Complex is better than complicated.   
+                  Flat is better than nested.           
+                  Sparse is better than dense.          
+                  Readability counts.                   
+                  Now is better than never.             
+                                         裂开的 XT-arong
+lui       $k1, 0x1d33
+ori       $k1, $k1, 0x256d
+lui       $gp, 0x8f71
+ori       $gp, $gp, 0x2084
+lui       $t3, 0x25a8
+ori       $t3, $t3, 0x1aff
+lui       $a1, 0x34c3
+ori       $a1, $a1, 0x112c
+lui       $t0, 0x5dd1
+ori       $t0, $t0, 0xb40d
+lui       $a0, 0x9362
+ori       $a0, $a0, 0x752b
+lui       $v0, 0x747c
+ori       $v0, $v0, 0x42ba
+lui       $at, 0x8d90
+ori       $at, $at, 0xfd89
+lui       $fp, 0x4126
+ori       $fp, $fp, 0xb87c
+lui       $sp, 0x8644
+ori       $sp, $sp, 0xf8bc
+lui       $ra, 0x7c1e
+ori       $ra, $ra, 0x267b
+lui       $s3, 0x7a85
+ori       $s3, $s3, 0x75b8
+lui       $t1, 0x9d15
+ori       $t1, $t1, 0xcc4e
+lui       $s1, 0x97b4
+ori       $s1, $s1, 0xdd96
+lui       $k0, 0x6a92
+ori       $k0, $k0, 0xb41b
+mult      $ra, $s3
+div       $s1, $a1
+mult      $t1, $at
+mflo      $t3
+mflo      $a0
+sltu      $s3, $gp, $a0
+or        $k0, $ra, $a0
+div       $s1, $t0
+mfhi      $a0
+divu      $at, $fp
+mtlo      $gp
+div       $ra, $k0
+div       $t1, $a1
+mthi      $gp
+multu     $v0, $sp
+mfhi      $t3
+addi      $t0, $t0, 0x6c65
+mfhi      $k0
+mflo      $sp
+lui       $at, 0xbc64
+mflo      $t0
+ori       $a0, $k0, 0xa5
+mfhi      $at
+mtlo      $fp
+sub       $a0, $s1, $gp
+and       $s3, $s3, $a1
+mthi      $k0
+mthi      $k0
+addi      $gp, $at, -0x55c7
+mfhi      $t1
+sltu      $t1, $t1, $t1
+mult      $t3, $gp
+sub       $fp, $t3, $at
+addi      $a1, $s3, -0x2c53
+mult      $sp, $gp
+mtlo      $fp
+lui       $v0, 0x729f
+slt       $a1, $gp, $fp
+mtlo      $k0
+mult      $s1, $t3
+multu     $v0, $v0
+mthi      $k1
+slt       $k0, $fp, $s1
+mtlo      $k0
+slt       $at, $a1, $a1
+mult      $v0, $t0
+mthi      $k0
+divu      $t0, $ra
+add       $a1, $ra, $t3
+mtlo      $t0
+mult      $t0, $v0
+div       $a1, $t0
+mfhi      $v0
+mtlo      $v0
+or        $a1, $fp, $fp
+addi      $t1, $v0, -0x5774
+mfhi      $t0
+divu      $t3, $t1
+and       $s3, $v0, $at
+mult      $t0, $a0
+mflo      $fp
+ori       $s3, $t0, 0x2bfa
+or        $s3, $s3, $gp
+div       $s3, $s1
+lui       $at, 0x3fd5
+multu     $fp, $k1
+mthi      $s3
+mfhi      $k0
+mtlo      $t0
+slt       $s1, $t1, $ra
+ori       $fp, $s1, 0x138e
+sub       $ra, $sp, $fp
+mthi      $a0
+multu     $k1, $s3
+mult      $gp, $ra
+multu     $t3, $t3
+div       $s1, $s1
+andi      $v0, $s3, 0xcbb4
+add       $t1, $k0, $t3
+mfhi      $k0
+ori       $sp, $s1, 0x67c2
+sltu      $gp, $gp, $ra
+mflo      $v0
+multu     $s3, $t0
+lui       $a1, 0x4c
+mthi      $a0
+andi      $t3, $t1, 0x7f59
+mflo      $v0
+divu      $ra, $t0
+mtlo      $at
+sub       $k1, $ra, $t1
+mfhi      $t0
+mtlo      $s1
+mthi      $gp
+mflo      $s1
+mult      $k1, $s1
+mfhi      $t3
+mtlo      $k0
+slt       $a1, $fp, $a1
+andi      $s3, $sp, 0x345e
+ori       $ra, $t1, 0xb5e2
+mfhi      $ra
+mfhi      $t1
+ori       $fp, $k1, 0xcaa0
+multu     $t3, $t0
+div       $ra, $t3
+mflo      $k1
+mthi      $a1
+mult      $s1, $t1
+mflo      $v0
+div       $fp, $a0
+and       $fp, $t1, $s1
+mthi      $ra
+and       $k1, $fp, $t1
+mflo      $a1
+divu      $v0, $t3
+mfhi      $t3
+sub       $t3, $t3, $k0
+mthi      $t3
+mtlo      $k1
+mfhi      $at
+mtlo      $gp
+and       $a1, $t1, $at
+multu     $k1, $k1
+mult      $t0, $v0
+add       $v0, $fp, $s3
+sltu      $sp, $ra, $at
+mtlo      $k0
+divu      $k1, $s3
+add       $ra, $fp, $t3
+mflo      $k1
+mthi      $t3
+mult      $ra, $v0
+mfhi      $t1
+mflo      $s1
+mtlo      $fp
+mthi      $gp
+multu     $fp, $fp
+multu     $v0, $s1
+addi      $t3, $gp, -0x2dc9
+multu     $ra, $ra
+mthi      $s1
+ori       $t0, $t0, 0xa85d
+mtlo      $t0
+mthi      $a0
+mtlo      $k1
+addi      $s3, $gp, -0x4188
+mtlo      $s3
+mfhi      $a1
+mthi      $gp
+addi      $fp, $v0, 0x5eea
+andi      $fp, $k0, 0x6378
+add       $at, $t1, $sp
+and       $a1, $t1, $at
+mtlo      $t3
+mtlo      $s3
+mtlo      $gp
+multu     $a0, $s3
+div       $t3, $t0
+mult      $s3, $t0
+div       $s3, $s3
+lui       $at, 0x4713
+divu      $ra, $s1
+ori       $fp, $t3, 0xf821
+divu      $s1, $t0
+add       $sp, $t1, $ra
+mthi      $a0
+mult      $at, $a0
+mtlo      $sp
+mthi      $t1
+div       $a0, $sp
+div       $fp, $v0
+andi      $t0, $t3, 0x8ec6
+divu      $fp, $a0
+mflo      $gp
+mfhi      $sp
+divu      $ra, $a0
+mult      $a0, $v0
+mflo      $a1
+addi      $ra, $k0, -0x373c
+divu      $sp, $t3
+or        $t0, $t0, $sp
+mfhi      $gp
+mfhi      $fp
+and       $ra, $sp, $at
+mfhi      $t0
+add       $ra, $t0, $a0
+andi      $k0, $k0, 0x2d4b
+or        $fp, $at, $k0
+mflo      $v0
+add       $ra, $fp, $t3
+sub       $t0, $s1, $t0
+mtlo      $sp
+slt       $a0, $k1, $sp
+mflo      $k0
+multu     $ra, $ra
+lui       $k0, 0x7a70
+mtlo      $fp
+mthi      $gp
+mult      $fp, $at
+slt       $a0, $k1, $t3
+divu      $sp, $k0
+mthi      $sp
+multu     $gp, $t3
+div       $at, $gp
+andi      $s3, $t1, 0x3375
+mthi      $a1
+lui       $t0, 0x5372
+div       $gp, $t3
+mtlo      $a1
+div       $at, $gp
+mtlo      $t1
+sltu      $a0, $s1, $t1
+mfhi      $a1
+mthi      $sp
+mflo      $s3
+mfhi      $k0
+andi      $t0, $a0, 0x531b
+multu     $k0, $at
+andi      $a0, $sp, 0xba42
+mthi      $s3
+mflo      $t3
+mthi      $a1
+add       $s1, $k0, $ra
+multu     $gp, $a1
+and       $t1, $t0, $t1
+andi      $k0, $at, 0xb817
+mfhi      $ra
+mfhi      $sp
+mult      $ra, $s1
+div       $a1, $ra
+mtlo      $k1
+addi      $fp, $t1, -0x61a5
+or        $k0, $t1, $s1
+multu     $gp, $ra
+mflo      $ra
+mtlo      $a1
+lui       $s1, 0x38d
+mfhi      $fp
+lui       $at, 0x8c7b
+or        $t0, $gp, $sp
+addi      $k0, $v0, -0x6674
+div       $sp, $s1
+mfhi      $gp
+add       $sp, $t0, $t1
+mthi      $s3
+addi      $s3, $a0, 0x1dd0
+mult      $s1, $sp
+mflo      $ra
+sub       $at, $s1, $a0
+multu     $sp, $a0
+mtlo      $t1
+multu     $s1, $a0
+mflo      $a1
+mfhi      $a0
+ori       $ra, $v0, 0x95b8
+divu      $a1, $fp
+and       $sp, $k0, $t1
+or        $v0, $fp, $fp
+mtlo      $gp
+mtlo      $k0
+sltu      $t1, $sp, $sp
+mtlo      $ra
+or        $at, $v0, $ra
+mfhi      $v0
+mthi      $fp
+ori       $at, $s3, 0xfecb
+addi      $gp, $a1, -0x20b
+ori       $gp, $sp, 0x1714
+mtlo      $ra
+lui       $at, 0xa1a0
+mflo      $t1
+andi      $a0, $t3, 0x44df
+sltu      $s1, $s3, $k0
+or        $t0, $ra, $s3
+ori       $k0, $t0, 0xd982
+mult      $s1, $v0
+sub       $a0, $fp, $v0
+add       $a0, $v0, $at
+or        $sp, $s3, $t0
+ori       $gp, $s1, 0x8315
+sub       $sp, $v0, $sp
+divu      $ra, $sp
+addi      $at, $at, 0x6348
+add       $gp, $a0, $at
+mtlo      $s1
+mfhi      $k1
+mthi      $a1
+multu     $v0, $k0
+sltu      $gp, $k1, $fp
+mult      $s1, $t1
+mthi      $at
+or        $s3, $ra, $s1
+ori       $k1, $a1, 0x76db
+mult      $t1, $a1
+lui       $gp, 0xe728
+mfhi      $s3
+mtlo      $s1
+mfhi      $t1
+div       $a1, $s1
+divu      $t1, $gp
+sltu      $t0, $a0, $v0
+mult      $k0, $s1
+mfhi      $v0
+sub       $s1, $ra, $k1
+lui       $sp, 0xeae1
+sub       $k0, $at, $t3
+mtlo      $gp
+add       $fp, $gp, $ra
+mtlo      $v0
+mtlo      $a0
+mult      $s3, $ra
+and       $a1, $gp, $k0
+or        $sp, $s1, $k1
+multu     $fp, $fp
+addi      $sp, $t1, 0x64e
+add       $s1, $at, $sp
+mthi      $sp
+mtlo      $k1
+mult      $fp, $sp
+mfhi      $at
+mtlo      $k0
+sub       $v0, $v0, $t3
+mthi      $a1
+sub       $a0, $sp, $k0
+mtlo      $v0
+or        $fp, $sp, $a0
+mtlo      $k1
+add       $v0, $k1, $a0
+or        $sp, $t3, $v0
+ori       $k1, $ra, 0x3183
+mult      $sp, $k1
+mtlo      $fp
+and       $t3, $s3, $k1
+mtlo      $ra
+or        $fp, $k1, $s3
+multu     $ra, $ra
+mthi      $s1
+slt       $fp, $t0, $t3
+andi      $t3, $sp, 0xdd6f
+mthi      $a1
+mtlo      $fp
+andi      $t1, $a1, 0xb79
+and       $t1, $gp, $t3
+lui       $s3, 0x1c50
+mflo      $t1
+and       $at, $s3, $fp
+mthi      $v0
+andi      $t1, $t0, 0x7ebe
+or        $fp, $k0, $a1
+slt       $v0, $fp, $sp
+and       $k0, $fp, $k1
+or        $gp, $t3, $sp
+mflo      $k0
+mfhi      $at
+andi      $v0, $ra, 0x2790
+or        $t1, $ra, $fp
+slt       $t1, $k0, $gp
+mfhi      $a1
+mtlo      $fp
+mtlo      $t3
+slt       $v0, $a1, $v0
+mfhi      $t1
+mthi      $a0
+mthi      $t1
+slt       $t0, $fp, $ra
+multu     $ra, $a0
+mflo      $v0
+mthi      $t3
+mtlo      $v0
+lui       $t1, 0x8ee5
+multu     $v0, $s3
+mult      $k0, $a1
+ori       $t0, $t0, 0xd27f
+slt       $k0, $s1, $gp
+add       $s3, $k1, $a0
+sltu      $s3, $a1, $gp
+add       $s1, $gp, $gp
+mfhi      $fp
+lui       $a1, 0xf727
+multu     $t1, $t1
+mult      $sp, $fp
+mtlo      $ra
+mthi      $t1
+slt       $t1, $a1, $sp
+mtlo      $gp
+add       $v0, $k0, $fp
+mflo      $k1
+andi      $s1, $a1, 0xe367
+mtlo      $s1
+mthi      $ra
+ori       $t1, $s1, 0xb78a
+andi      $t3, $s1, 0xc6fc
+add       $k1, $k0, $k1
+sltu      $t3, $t1, $t0
+or        $s1, $t0, $k0
+mthi      $k1
+div       $k1, $k0
+divu      $k1, $t1
+multu     $t1, $ra
+and       $ra, $ra, $k0
+mfhi      $t0
+lui       $k0, 0x84a8
+addi      $k0, $at, -0x3dd7
+mfhi      $a1
+mthi      $t1
+mflo      $s3
+mflo      $ra
+mfhi      $s1
+multu     $sp, $fp
+multu     $t1, $k0
+divu      $a0, $fp
+mtlo      $a0
+mtlo      $s1
+sub       $v0, $gp, $t3
+mfhi      $sp
+lui       $a1, 0xa5f8
+mflo      $k1
+mtlo      $a0
+mult      $a0, $k1
+sub       $gp, $t3, $t0
+andi      $gp, $k0, 0xdfc8
+mflo      $t0
+add       $t1, $at, $at
+ori       $a0, $fp, 0x102
+add       $at, $ra, $ra
+mtlo      $a0
+add       $fp, $k1, $t3
+and       $t3, $fp, $v0
+or        $sp, $fp, $ra
+slt       $s3, $s3, $sp
+mflo      $a1
+add       $a0, $s3, $v0
+mtlo      $t0
+multu     $t0, $v0
+mult      $v0, $a1
+slt       $k1, $sp, $fp
+mflo      $gp
+ori       $k1, $s1, 0x3829
+sltu      $a0, $v0, $t0
+slt       $ra, $gp, $sp
+mthi      $s1
+multu     $gp, $gp
+mult      $t3, $s1
+or        $t3, $t0, $fp
+addi      $ra, $a0, -0x3982
+multu     $t0, $t1
+multu     $s1, $at
+mflo      $v0
+mult      $at, $gp
+and       $sp, $at, $a0
+mthi      $k0
+mthi      $fp
+mult      $v0, $fp
+lui       $s1, 0x4a9e
+mfhi      $fp
+and       $sp, $t1, $v0
+add       $ra, $k1, $t3
+sub       $t0, $sp, $k0
+sub       $v0, $t1, $fp
+slt       $v0, $at, $fp
+lui       $fp, 0xde4b
+mfhi      $a1
+mult      $at, $a1
+and       $v0, $t3, $fp
+divu      $s3, $v0
+divu      $sp, $ra
+sub       $k1, $s3, $at
+mfhi      $at
+ori       $at, $fp, 0xa8ce
+mtlo      $t1
+ori       $gp, $s3, 0x237c
+lui       $k0, 0x96b0
+mthi      $a1
+sltu      $v0, $a0, $a1
+add       $at, $sp, $gp
+slt       $k0, $ra, $t3
+or        $t3, $t0, $fp
+sub       $s3, $t0, $a1
+div       $s1, $s1
+lui       $s3, 0x1d45
+ori       $fp, $at, 0xf565
+andi      $fp, $k1, 0x88d2
+mfhi      $s3
+mult      $t3, $a1
+mfhi      $a0
+mfhi      $s1
+ori       $a1, $k1, 0xd001
+mfhi      $v0
+sub       $at, $fp, $a0
+andi      $k1, $t0, 0xfcdf
+mfhi      $a1
+mthi      $sp
+mthi      $v0
+mtlo      $sp
+multu     $fp, $k1
+andi      $t1, $ra, 0xf7e2
+div       $sp, $a1
+divu      $t3, $t1
+mfhi      $t1
+addi      $sp, $ra, -0xcfd
+ori       $sp, $k0, 0xd96
+divu      $ra, $a1
+or        $a1, $fp, $s3
+lui       $t0, 0x28bf
+mtlo      $ra
+andi      $v0, $v0, 0xf25b
+sltu      $a0, $at, $gp
+div       $fp, $k1
+andi      $fp, $ra, 0x49cc
+div       $t1, $t1
+ori       $at, $at, 0xbcb9
+mult      $t0, $at
+addi      $at, $gp, -0x37c3
+multu     $k1, $s1
+add       $v0, $sp, $t3
+sltu      $fp, $t3, $v0
+slt       $t0, $fp, $sp
+and       $fp, $t0, $fp
+sub       $fp, $at, $a1
+mfhi      $t0
+andi      $s3, $s1, 0x9ab6
+mtlo      $v0
+multu     $s1, $gp
+add       $t0, $t3, $t1
+divu      $a1, $s3
+addi      $s3, $fp, -0x3a57
+mtlo      $a1
+mtlo      $gp
+mthi      $sp
+addi      $s3, $s3, 0x7bc8
+multu     $k1, $fp
+multu     $gp, $a1
+multu     $a1, $gp
+mult      $at, $fp
+mult      $s3, $s3
+multu     $s1, $ra
+mtlo      $k1
+or        $k1, $k0, $gp
+mfhi      $t0
+multu     $gp, $ra
+mfhi      $t1
+mtlo      $s3
+divu      $at, $gp
+mult      $fp, $v0
+mtlo      $k1
+mfhi      $a0
+slt       $k1, $t3, $k0
+mtlo      $s1
+mult      $ra, $k1
+add       $t0, $fp, $sp
+addi      $at, $a1, 0x397c
+div       $s1, $t1
+multu     $s3, $a0
+sltu      $s3, $t1, $k1
+and       $sp, $t0, $sp
+mthi      $t0
+multu     $v0, $t0
+andi      $a0, $t3, 0xf0b1
+or        $t0, $v0, $t0
+div       $at, $k1
+addi      $fp, $t3, -0x51d6
+mthi      $ra
+mtlo      $fp
+mflo      $k0
+mthi      $gp
+lui       $fp, 0xb444
+sltu      $gp, $s1, $at
+mflo      $at
+add       $s1, $k1, $gp
+or        $k0, $s1, $ra
+or        $v0, $k1, $k0
+add       $s3, $sp, $fp
+mthi      $a0
+mtlo      $fp
+mult      $a1, $a1
+mfhi      $gp
+mflo      $fp
+mtlo      $a0
+mflo      $k0
+lui       $v0, 0x5617
+div       $s1, $ra
+sltu      $k0, $v0, $sp
+and       $at, $a0, $t3
+multu     $t1, $sp
+slt       $k0, $v0, $t3
+add       $gp, $sp, $sp
+mflo      $a1
+divu      $a0, $gp
+lui       $at, 0x6919
+andi      $v0, $k1, 0x9d
+lui       $fp, 0x4208
+sltu      $gp, $fp, $v0
+mfhi      $sp
+lui       $fp, 0x4542
+mfhi      $gp
+mflo      $a0
+mfhi      $k0
+mult      $s3, $sp
+mult      $k0, $a1
+multu     $sp, $fp
+or        $t1, $a0, $at
+multu     $k0, $a1
+divu      $k1, $k1
+lui       $v0, 0x10ff
+sltu      $v0, $t0, $t3
+mtlo      $a1
+mfhi      $sp
+divu      $a1, $k0
+multu     $a0, $s3
+and       $k0, $s3, $at
+mult      $at, $k0
+mtlo      $fp
+slt       $k1, $k0, $t0
+mult      $gp, $s3
+mfhi      $t3
+mthi      $s3
+div       $gp, $t1
+mtlo      $sp
+sltu      $fp, $a1, $gp
+sltu      $t0, $fp, $t3
+andi      $sp, $t0, 0x4114
+andi      $gp, $ra, 0xb106
+lui       $sp, 0x2076
+mthi      $v0
+mfhi      $ra
+add       $s3, $s3, $t3
+multu     $t1, $t3
+lui       $k0, 0x3266
+mthi      $t1
+mthi      $at
+addi      $k0, $a0, -0x2bb3
+mult      $a1, $s1
+addi      $v0, $at, -0x671
+sltu      $at, $gp, $a0
+mtlo      $gp
+mult      $v0, $t0
+multu     $s3, $v0
+slt       $t3, $k1, $at
+mfhi      $k0
+mflo      $at
+divu      $gp, $k0
+ori       $ra, $s3, 0xd304
+sltu      $gp, $sp, $at
+andi      $ra, $t3, 0x71ce
+andi      $v0, $t0, 0xbde
+sltu      $s1, $t0, $at
+multu     $a0, $t1
+lui       $ra, 0xfb24
+add       $k1, $ra, $ra
+mfhi      $a1
+multu     $t1, $k1
+mthi      $t1
+mult      $t0, $s3
+mtlo      $sp
+lui       $v0, 0x81df
+add       $gp, $t1, $t3
+or        $fp, $at, $v0
+mtlo      $v0
+add       $v0, $gp, $t0
+mthi      $t1
+multu     $k1, $v0
+mflo      $a0
+mfhi      $ra
+sltu      $t3, $a0, $ra
+mult      $s3, $sp
+sltu      $s3, $t3, $at
+sub       $k0, $gp, $at
+mthi      $s3
+mflo      $a1
+divu      $gp, $t0
+mthi      $a0
+div       $ra, $k1
+div       $s3, $s3
+divu      $v0, $k0
+mtlo      $ra
+mflo      $t0
+and       $s1, $at, $ra
+mult      $sp, $at
+mfhi      $at
+mthi      $v0
+ori       $t0, $a0, 0x3aad
+andi      $s1, $gp, 0xda30
+mult      $s3, $k1
+add       $t1, $t3, $a0
+mflo      $sp
+addi      $k1, $gp, -0x855
+mthi      $gp
+lui       $s3, 0xd6f3
+mthi      $s3
+addi      $ra, $sp, 0x49d4
+mult      $t0, $sp
+mthi      $t0
+mtlo      $a0
+and       $s1, $ra, $v0
+mult      $s3, $a0
+divu      $k0, $k0
+and       $v0, $at, $sp
+sub       $t1, $sp, $t3
+add       $sp, $s3, $gp
+ori       $t1, $gp, 0x4df1
+multu     $gp, $gp
+lui       $k0, 0x2239
+mthi      $gp
+mtlo      $s1
+mult      $ra, $at
+divu      $sp, $v0
+addi      $k1, $gp, -0x309e
+mthi      $t3
+mtlo      $k1
+slt       $k1, $v0, $k0
+mtlo      $v0
+mflo      $k0
+andi      $k0, $k0, 0x4ff0
+addi      $a1, $t1, 0x2b39
+sub       $t0, $k1, $v0
+or        $sp, $at, $a0
+slt       $gp, $a0, $k1
+multu     $sp, $a1
+sltu      $s3, $t0, $k1
+slt       $k1, $ra, $t0
+mthi      $sp
+slt       $k0, $t1, $a0
+mfhi      $v0
+mult      $ra, $s1
+mflo      $t3
+lui       $s3, 0xd4b
+and       $t3, $k0, $k1
+and       $a0, $t1, $t3
+div       $s3, $t1
+multu     $sp, $s3
+sub       $ra, $fp, $ra
+div       $k1, $t1
+mthi      $at
+mfhi      $k1
+mtlo      $t1
+or        $sp, $t1, $at
+mfhi      $s1
+sub       $fp, $k1, $s3
+and       $t0, $k0, $ra
+slt       $k1, $t1, $sp
+andi      $s3, $k1, 0xde7a
+sltu      $t1, $ra, $k0
+ori       $gp, $t0, 0xc9c0
+and       $t1, $s3, $s1
+sltu      $a0, $at, $k0
+mtlo      $ra
+addi      $v0, $ra, 0x31f3
+addi      $t0, $t0, 0x7e72
+divu      $k1, $v0
+multu     $v0, $at
+slt       $sp, $t1, $s1
+and       $gp, $k0, $s3
+mflo      $gp
+divu      $gp, $at
+mtlo      $fp
+multu     $k1, $t0
+mtlo      $gp
+sub       $fp, $fp, $at
+mflo      $ra
+sub       $ra, $fp, $t0
+addi      $t1, $fp, -0x39a5
+mtlo      $v0
+slt       $s1, $t0, $gp
+mfhi      $fp
+mtlo      $s1
+sltu      $sp, $v0, $s1
+and       $a1, $s1, $s1
+ori       $t0, $fp, 0xf95f
+div       $t0, $v0
+lui       $s1, 0x1a0d
+multu     $ra, $t0
+slt       $v0, $k1, $t0
+mult      $t1, $ra
+mtlo      $fp
+lui       $ra, 0x89ff
+mflo      $at
+multu     $k1, $a1
+andi      $t1, $sp, 0x3333
+ori       $k0, $k1, 0x4d07
+add       $k1, $t1, $a0
+mthi      $s3
+mult      $v0, $gp
+mflo      $t0
+mult      $gp, $s1
+mthi      $t1
+addi      $a1, $t1, -0xd50
+ori       $t3, $gp, 0x466
+mult      $gp, $t3
+mthi      $s1
+mfhi      $t0
+div       $gp, $k0
+multu     $a1, $gp
+sltu      $s3, $t0, $a0
+addi      $sp, $gp, -0x16ce
+mult      $ra, $s1
+slt       $t0, $s1, $v0
+mfhi      $v0
+multu     $v0, $a1
+div       $k0, $s1
+slt       $v0, $v0, $fp
+addi      $k0, $ra, -0x5ac0
+mult      $k0, $sp
+mthi      $t0
+mthi      $s1
+sltu      $ra, $sp, $at
+andi      $t0, $t1, 0xab3c
+addi      $k1, $t0, -0x325
+add       $ra, $sp, $t0
+mfhi      $sp
+mtlo      $k1
+mthi      $k0
+andi      $a0, $gp, 0xff61
+mflo      $s3
+mfhi      $k0
+mthi      $s1
+addi      $gp, $a0, -0x318c
+sltu      $sp, $a1, $t0
+multu     $a0, $s3
+sub       $gp, $sp, $a0
+add       $k1, $ra, $t1
+mult      $k1, $a0
+mthi      $v0
+ori       $fp, $t3, 0x85ae
+mfhi      $s1
+multu     $a0, $v0
+slt       $t0, $ra, $k1
+slt       $t0, $at, $k0
+and       $k1, $gp, $sp
+mflo      $s1
+div       $t3, $t3
+multu     $ra, $fp
+mthi      $at
+sub       $k0, $a1, $t0
+multu     $gp, $t3
+mfhi      $t1
+and       $s3, $sp, $s3
+mflo      $s3
+mtlo      $gp
+mflo      $fp
+multu     $t1, $s1
+add       $t0, $s1, $s1
+addi      $s1, $fp, 0x4b27
+add       $a1, $ra, $s3
+mfhi      $s3
+multu     $a1, $ra
+and       $gp, $s3, $s1
+ori       $t1, $fp, 0x5b6c
+lui       $sp, 0x6ed7
+multu     $t0, $sp
+multu     $ra, $v0
+mtlo      $a1
+mflo      $a0
+sub       $t1, $t1, $a1
+add       $v0, $t3, $t0
+mfhi      $t1
+sub       $a1, $a0, $t1
+slt       $gp, $v0, $v0
+or        $t1, $at, $gp
+mfhi      $fp
+mtlo      $fp
+multu     $v0, $a1
+mthi      $t0
+or        $s3, $fp, $t1
+mthi      $s1
+sltu      $v0, $gp, $t1
+div       $a0, $t0
+sltu      $a1, $t0, $fp
+mtlo      $s3
+divu      $s1, $k0
+mfhi      $t3
+andi      $ra, $gp, 0x7d4b
+mflo      $k0
+mthi      $ra
+addi      $t1, $a1, -0x59b8
+mtlo      $fp
+mfhi      $fp
+slt       $t3, $t0, $k0
+mult      $s1, $t1
+mtlo      $t1
+multu     $t1, $t1
+ori       $t3, $ra, 0xbd1a
+addi      $t1, $ra, -0x2f6d
+divu      $t3, $a0
+sltu      $s1, $a1, $ra
+slt       $sp, $a1, $k0
+mtlo      $k0
+multu     $a0, $t0
+lui       $t1, 0x66b6
+ori       $k1, $t3, 0x7ffc
+slt       $t0, $t1, $sp
+mfhi      $a0
+and       $a1, $t0, $a0
+mfhi      $gp
+multu     $t3, $t1
+mthi      $t3
+mult      $a0, $t3
+mthi      $a1
+and       $k1, $sp, $sp
+or        $t1, $gp, $t0
+mthi      $k1
+addi      $gp, $k0, -0x4d69
+slt       $t1, $s3, $sp
+multu     $t3, $a0
+div       $t3, $t3
+addi      $t0, $sp, -0x583d
+slt       $s3, $v0, $sp
+mflo      $k0
+mtlo      $t3
+slt       $at, $t3, $k0
+multu     $t0, $a0
+mflo      $gp
+multu     $k0, $t0
+slt       $s1, $a0, $k0
+mflo      $at
+add       $k0, $a0, $a1
+mflo      $fp
+mtlo      $t1
+mflo      $ra
+ori       $at, $sp, 0x73fe
+sltu      $t0, $t3, $t1
+mult      $gp, $k0
+divu      $t3, $k0
+ori       $fp, $fp, 0x55fe
+ori       $ra, $s3, 0xbba4
+divu      $k0, $ra
+div       $ra, $at
+mfhi      $t3
+slt       $k0, $gp, $a1
+multu     $at, $t3
+mflo      $ra
+mult      $fp, $k0
+mthi      $t0
+addi      $t1, $s1, -0xf26
+add       $v0, $fp, $t3
+multu     $v0, $t1
+mult      $v0, $v0
+multu     $k0, $t1
+div       $t1, $gp
+lui       $sp, 0x2316
+div       $t3, $t1
+mult      $sp, $v0
+mtlo      $sp
+div       $a0, $gp
+multu     $at, $fp
+mthi      $t1
+and       $t3, $ra, $a0
+mfhi      $t0
+sltu      $s3, $s3, $v0
+mult      $v0, $fp
+mflo      $a0
+lui       $t3, 0x2c43
+div       $at, $t0
+addi      $at, $k0, 0x41aa
+div       $sp, $at
+or        $k0, $t1, $a1
+and       $t3, $fp, $s3
+slt       $t0, $s1, $a0
+or        $t1, $t3, $k1
+mfhi      $t3
+multu     $at, $fp
+and       $ra, $t1, $s3
+mult      $k0, $sp
+mfhi      $k0
+addi      $t0, $a0, 0x73cd
+multu     $ra, $gp
+sltu      $t0, $t3, $gp
+or        $a1, $ra, $s3
+addi      $gp, $gp, 0x2b9c
+ori       $t3, $k1, 0xf565
+mflo      $a1
+mthi      $a1
+and       $s3, $a0, $s1
+andi      $s3, $s3, 0xd453
+mtlo      $v0
+lui       $s1, 0x661c
+mflo      $ra
+mfhi      $a0
+slt       $at, $t0, $t1
+mflo      $ra
+div       $a1, $a1
+mfhi      $s3
+mult      $ra, $fp
+mflo      $k0
+andi      $t1, $a1, 0x30a
+div       $t1, $gp
+mtlo      $s1
+mult      $k0, $sp
+ori       $s3, $t3, 0x48ef
+mthi      $k1
+mflo      $a1
+multu     $v0, $a1
+sltu      $t0, $ra, $sp
+sub       $t1, $k0, $ra
+mult      $t3, $gp
+mthi      $t1
+mthi      $t3
+and       $a0, $at, $ra
+lui       $sp, 0xc5b5
+multu     $sp, $t1
